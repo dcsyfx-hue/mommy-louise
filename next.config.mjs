@@ -6,13 +6,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  experimental: {
-    dynamicIO: true,
-    skipTrailingSlashRedirect: true,
-  },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
   onDemandEntries: {
     maxInactiveAge: 25 * 1000,
     pagesBufferLength: 5,
